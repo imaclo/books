@@ -1,7 +1,7 @@
 import React, { useState, useRef, useEffect } from "react";
-import Loading from "./Loading";
-import Bookrow from "./Bookrow";
-import Tags from "./Tags";
+import Loading from "./components/Loading";
+import BookRow from "./components/bookRow";
+import Tags from "./components/tags";
 import Image from "next/image";
 
 const Main = () => {
@@ -199,7 +199,7 @@ const Main = () => {
                 <div className="col-span-12 border-solid border-b-gray-500 border"></div>
 
                 {searchData.map((book, index) => (
-                  <Bookrow key={index} book={book}></Bookrow>
+                  <BookRow key={index} book={book}></BookRow>
                 ))}
               </div>
             )}
