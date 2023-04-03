@@ -1,7 +1,7 @@
 import React, { useState, useRef, useEffect } from "react";
-import Loading from "./components/Loading";
-import BookRow from "./components/bookRow";
-import Tags from "./components/tags";
+import Loading from "../components/Loading";
+import BookRow from "../components/bookRow";
+import Tags from "../components/tags";
 import Image from "next/image";
 
 const Main = () => {
