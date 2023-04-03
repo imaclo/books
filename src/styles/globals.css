@@ -1,0 +1,28 @@
+/* Required for Tailwind CSS */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* Loading image rotate */
+
+.rotate {
+    animation: rotation 2s infinite linear;
+  }
+
+@keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+  }
+
+  
+
+.fillWidthImage {
+  width: 100%;
+  aspectRatio: 1;
+  height: auto;
+}
